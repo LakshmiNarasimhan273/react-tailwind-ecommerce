@@ -8,7 +8,7 @@ function Navbar() {
 
     const toggleMenu = () => setIsOpen(!isOpen);
   return (
-    // Issue resolved here adding offset value of top-0 and z-index of 50
+    // Issue resolved here adding offset(top, bottom, left, right) value of top-0 and z-index of 50
     <nav className='bg-white shadow-md fixed w-full top-0 z-50'>
         {/* responsiveness */}
         <div className='max-w-7xl mx-auto px-6 sm:px-6 lg:px-8'>
